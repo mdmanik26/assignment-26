@@ -1,0 +1,231 @@
+img {
+    max-width: 100%;
+}
+
+
+.brandContent h6 {
+    color: #3763eb;
+}
+
+.brandContent h1 {
+    max-width: 600px;
+    margin: auto;
+    padding: 9px 0px 26px 0px;
+    font-weight: 700;
+    position: relative;
+}
+
+.brandContent h1::after {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    width: 45px;
+    height: 2px;
+    background: #3763eb;
+}
+
+
+.brandContent p {
+    max-width: 340px;
+    color: #827b91;
+    margin-top: 7px;
+}
+
+
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    transition: all .5s linear;
+}
+
+.brand:hover{
+    background: #f6f9fc;
+    cursor: pointer;
+}
+.brand img{
+    display: inline-block;
+    opacity: .5;
+    transition: all .5s linear;
+
+}
+
+.brand:hover img{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blogContent h6 {
+    color: #3763eb;
+}
+
+.blogContent h1 {
+    max-width: 600px;
+    margin: auto;
+    padding: 9px 0px 26px 0px;
+    font-weight: 700;
+    position: relative;
+}
+
+.blogContent h1::after {
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 45px;
+    height: 2px;
+    background: #3763eb;
+}
+
+
+.blogImg img {
+    border-radius: 7px;
+}
+
+.blogImg {
+    position: relative;
+}
+
+.blogContent p {
+    max-width: 508px;
+    margin: auto;
+    color: #827b91;
+}
+
+.blogInfo h3 {
+    font-size: 24px;
+    margin: 19px 0px;
+}
+
+.blogInfo p {
+    color: #827b91;
+    padding-right: 33px;
+
+}
+
+.authorContainer {
+    background: #3763eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 189px;
+    height: 43px;
+    border-radius: 30px;
+    padding: 10px 15px 10px 7px;
+    position: absolute;
+    bottom: 25px;
+    right: 21px;
+}
+
+.authorContainer .authorImg {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.authorContainer .authorImg img {
+    border-radius: 50%;
+}
+
+.authorContainer h6 {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+
+
+
+/* footer */
+
+
+.logoFooter {
+    width: 130px;
+}
+
+.footerSocial {
+    padding: 0;
+    list-style: none;
+}
+
+.footerSocial li {
+    padding: 0px 15px;
+}
+
+.footerSocial a {
+    font-size: 20px;
+}
+
+
+.LogoSide p {
+    text-align: justify;
+    padding: 0px 74px 0px 0px;
+    margin: 25px 0px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #c4c4c4;
+}
+
+.footer_Ul h4 {
+    position: relative;
+    margin-bottom: 25px;
+    padding-left: 15px;
+
+}
+
+.footer_Ul h4::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: #3763eb;
+}
+
+
+.footer_Ul ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_Ul ul li {
+    margin: 10px 0px;
+}
+
+.footer_Ul ul li a {
+    text-decoration: none;
+    color: #827b91;
+
+
+}
+
+footer {
+    background: #081828;
+}
+
+.footerBottom {
+    border-top: 1px solid #414d59;
+}
+
+
+.footerBottom p {
+    color: #d4d3d3;
+}
